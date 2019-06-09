@@ -1,7 +1,7 @@
 # Rails Helpers Lecture Assessments
 
 Before all assessments, run `rails s` in your terminal to start the rails app.
-
+Test in the browser by going to http://localhost:3000/airlines
 
 
 ### Assessment 1: Using `link_to`
