@@ -33,6 +33,6 @@ class AirlinesController < ApplicationController
     end
     
     def airline_params
-        params.require(:airline).permit(:name, :traveler_ids)
+        params.require(:airline).permit(:name, traveler_ids: [])
     end
 end
