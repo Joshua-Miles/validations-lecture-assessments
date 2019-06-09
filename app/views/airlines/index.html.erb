@@ -1,0 +1,9 @@
+<h1>Airlines</h1>
+<ul>
+<% @airlines.each do | airline | %>
+    <li>
+        <%=airline.name%>
+        <span>(View Details)</span>
+    </li>
+<% end %>
+</ul>
