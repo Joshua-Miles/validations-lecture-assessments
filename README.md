@@ -6,7 +6,7 @@ Test in the browser by going to http://localhost:3000/airlines
 
 ### Assessment 1: Using validations
 
-* Add a validation to the airliens model to check for the presence of the airlines name
+* Add a validation to the airlines model to check for the presence of the airlines name
 
 
 
