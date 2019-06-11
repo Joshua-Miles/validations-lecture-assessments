@@ -3,7 +3,7 @@
 <% @airlines.each do | airline | %>
     <li>
         <%=airline.name%>
-        <span>(View Details)</span>
+        <%= link_to "View Details", "/airlines/#{airline.id}" %>
     </li>
 <% end %>
 </ul>

@@ -1,5 +1,5 @@
 <h1><%= @airline.name %></h1>
-<span>(Edit)</span>
+<%= link_to "View Details", "/airlines/#{airline.id}" %>
 <h3>Passengers:</h3>
 <ul>
 <% @airline.travelers.each do | passenger | %>

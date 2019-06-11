@@ -1,2 +1,6 @@
 <h1>Edit <%= @airline.name %></h1>
-<span>(Edit Form)</span>
+<%= form_with model: @airline do | form | %>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+    <%= form.submit %>
+<% end %>
